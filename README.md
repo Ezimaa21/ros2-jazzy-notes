@@ -18,11 +18,11 @@ Personal notes documenting my first steps with **ROS 2 Jazzy Jalisco** on Ubuntu
 Before sourcing ROS:
 
 
-ros --version
-ros2
+  ros --version
+  ros2
 
 ## Locate ROS Installation
-ls /opt/ros/
+  ls /opt/ros/
 
 
 Output:
@@ -32,15 +32,15 @@ jazzy
 
 ## ROS is installed at:
 
-/opt/ros/jazzy
+  /opt/ros/jazzy
 
 Source ROS 2
-source /opt/ros/jazzy/setup.bash
+  source /opt/ros/jazzy/setup.bash
 
 
 ## Verify:
 
-printenv ROS_DISTRO
+  printenv ROS_DISTRO
 
 
 Output:
@@ -51,12 +51,13 @@ jazzy
 After this, ros2 commands work.
 
 ## Install and Check Turtlesim
-sudo apt install ros-jazzy-turtlesim
+
+  sudo apt install ros-jazzy-turtlesim
 
 
 ## Check executables:
 
-ros2 pkg executables turtlesim
+  ros2 pkg executables turtlesim
 
 ## Run Turtlesim
 ros2 run turtlesim turtlesim_node
@@ -91,8 +92,9 @@ mkdir src
 
 Example:
 
-cd/opt/ros    # wrong
-cd /opt/ros   # correct
+  cd/opt/ros    # wrong
+  
+  cd /opt/ros   # correct
 
 ## Key Rule
 
